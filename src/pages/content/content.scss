@@ -1,0 +1,62 @@
+@use "../../styles/global" as *;
+.content-section {
+  width: 80%;
+  height: 40rem;
+  background: #211f54;
+  border-radius: 24px;
+  margin: 0 auto;
+  margin-top: -5rem;
+  .content-img {
+    img {
+      width: 30rem;
+    }
+  }
+  .content-text {
+    padding: 6rem;
+    h1 {
+      font-size: 4rem;
+      color: #fff;
+    }
+    p {
+      margin-top: 3rem;
+      color: #fff;
+      font-size: 1.2rem;
+      line-height: 1.8rem;
+    }
+    .home-flex {
+      margin-top: 3rem;
+      gap: 3rem;
+      button {
+        padding: 1rem 1.5rem;
+        border-radius: 0.5rem;
+        color: #fff;
+        width: 13rem;
+        background-color: #0075ff;
+        transition: 0.1s linear;
+        border: 1px solid #0075ff;
+        &:hover {
+          background-color: transparent;
+          color: #0075ff;
+          transition: 0.1s linear;
+        }
+      }
+      img {
+        margin-right: -2rem;
+        width: 5rem;
+        cursor: pointer;
+      }
+      .homFlex-text {
+        width: 10rem;
+        span {
+          font-size: 1.3rem;
+          margin-bottom: 1rem;
+          color: $phar-color;
+        }
+        h4 {
+          font-size: 1.2rem;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

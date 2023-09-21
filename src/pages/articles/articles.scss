@@ -1,0 +1,79 @@
+@use "../../styles/global" as *;
+.articles-section {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  .articles-title {
+    margin-bottom: 5rem;
+    justify-content: space-between;
+    h1 {
+      font-size: 3rem;
+    }
+    .articles-btns {
+      gap: 2rem;
+      display: flex;
+      .articles-btn1 {
+        padding: 1rem 1.5rem;
+        border-radius: 0.5rem;
+        color: #fff;
+        background-color: $main-color;
+        transition: 0.1s linear;
+        border: 1px solid $main-color;
+        &:hover {
+          background-color: white;
+          color: $main-color;
+          transition: 0.1s linear;
+        }
+      }
+      .articles-btn2 {
+        margin: -0.5rem;
+        border-radius: 0.5rem;
+        color: $main-color;
+        background-color: #fff;
+        color: $text-color;
+        transition: 0.1s linear;
+        padding: 1.5rem 2rem;
+        border-radius: 14px;
+        border: 1px solid #eff0f6;
+        box-shadow: 0px 4px 10px 0px rgba(20, 20, 43, 0.04);
+        &:hover {
+          background-color: $main-color;
+          color: white;
+          transition: 0.1s linear;
+        }
+      }
+    }
+  }
+  .articles-body {
+    gap: 3rem;
+    .card-text {
+      margin: 15rem 5rem;
+      width: 35rem;
+      border-radius: 2.4rem;
+      border: 1px solid #eff0f6;
+      box-shadow: 0px 2px 6px 0px rgba(20, 20, 43, 0.04);
+      background-color: #fff;
+      padding: 5rem;
+      h4 {
+        width: 30rem;
+        font-size: 1.7rem;
+      }
+      p {
+        font-size: 1.2rem;
+        margin-top: 1.5rem;
+        color: $phar-color;
+      }
+      b {
+        display: inline-block;
+        margin-top: 3rem;
+      }
+      img {
+        width: 4rem;
+        margin-top: 1.5rem;
+      }
+      .card-flex {
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+  }
+}

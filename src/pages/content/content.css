@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+span {
+  display: inline-block;
+}
+
+input {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: #22343d;
+  font-weight: 400;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.flex-class {
+  display: flex;
+}
+
+.grid-class {
+  display: grid;
+}
+
+.selected {
+  font-weight: 700;
+  color: #22343d;
+}
+
+.content-section {
+  width: 80%;
+  height: 40rem;
+  background: #211f54;
+  border-radius: 24px;
+  margin: 0 auto;
+  margin-top: -5rem;
+}
+.content-section .content-img img {
+  width: 30rem;
+}
+.content-section .content-text {
+  padding: 6rem;
+}
+.content-section .content-text h1 {
+  font-size: 4rem;
+  color: #fff;
+}
+.content-section .content-text p {
+  margin-top: 3rem;
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+.content-section .content-text .home-flex {
+  margin-top: 3rem;
+  gap: 3rem;
+}
+.content-section .content-text .home-flex button {
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  width: 13rem;
+  background-color: #0075ff;
+  transition: 0.1s linear;
+  border: 1px solid #0075ff;
+}
+.content-section .content-text .home-flex button:hover {
+  background-color: transparent;
+  color: #0075ff;
+  transition: 0.1s linear;
+}
+.content-section .content-text .home-flex img {
+  margin-right: -2rem;
+  width: 5rem;
+  cursor: pointer;
+}
+.content-section .content-text .home-flex .homFlex-text {
+  width: 10rem;
+}
+.content-section .content-text .home-flex .homFlex-text span {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #6e7191;
+}
+.content-section .content-text .home-flex .homFlex-text h4 {
+  font-size: 1.2rem;
+  color: #fff;
+}/*# sourceMappingURL=content.css.map */

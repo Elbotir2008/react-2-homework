@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+span {
+  display: inline-block;
+}
+
+input {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: #22343d;
+  font-weight: 400;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.flex-class {
+  display: flex;
+}
+
+.grid-class {
+  display: grid;
+}
+
+.selected {
+  font-weight: 700;
+  color: #22343d;
+}
+
+.articles-section {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+.articles-section .articles-title {
+  margin-bottom: 5rem;
+  justify-content: space-between;
+}
+.articles-section .articles-title h1 {
+  font-size: 3rem;
+}
+.articles-section .articles-title .articles-btns {
+  gap: 2rem;
+  display: flex;
+}
+.articles-section .articles-title .articles-btns .articles-btn1 {
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  background-color: #0075ff;
+  transition: 0.1s linear;
+  border: 1px solid #0075ff;
+}
+.articles-section .articles-title .articles-btns .articles-btn1:hover {
+  background-color: white;
+  color: #0075ff;
+  transition: 0.1s linear;
+}
+.articles-section .articles-title .articles-btns .articles-btn2 {
+  margin: -0.5rem;
+  border-radius: 0.5rem;
+  color: #0075ff;
+  background-color: #fff;
+  color: #211f54;
+  transition: 0.1s linear;
+  padding: 1.5rem 2rem;
+  border-radius: 14px;
+  border: 1px solid #eff0f6;
+  box-shadow: 0px 4px 10px 0px rgba(20, 20, 43, 0.04);
+}
+.articles-section .articles-title .articles-btns .articles-btn2:hover {
+  background-color: #0075ff;
+  color: white;
+  transition: 0.1s linear;
+}
+.articles-section .articles-body {
+  gap: 3rem;
+}
+.articles-section .articles-body .card-text {
+  margin: 15rem 5rem;
+  width: 35rem;
+  border-radius: 2.4rem;
+  border: 1px solid #eff0f6;
+  box-shadow: 0px 2px 6px 0px rgba(20, 20, 43, 0.04);
+  background-color: #fff;
+  padding: 5rem;
+}
+.articles-section .articles-body .card-text h4 {
+  width: 30rem;
+  font-size: 1.7rem;
+}
+.articles-section .articles-body .card-text p {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  color: #6e7191;
+}
+.articles-section .articles-body .card-text b {
+  display: inline-block;
+  margin-top: 3rem;
+}
+.articles-section .articles-body .card-text img {
+  width: 4rem;
+  margin-top: 1.5rem;
+}
+.articles-section .articles-body .card-text .card-flex {
+  justify-content: space-between;
+  align-items: center;
+}/*# sourceMappingURL=articles.css.map */
